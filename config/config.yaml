@@ -1,0 +1,60 @@
+# Configuration file for Animal Classification Active Learning Project
+
+# Model Configuration
+model:
+  architecture: "resnet18"
+  pretrained: true
+  num_classes: 2
+  dropout: 0.3
+
+# Training Configuration
+training:
+  epochs: 5
+  batch_size: 32
+  learning_rate: 0.001
+  weight_decay: 0.01
+  scheduler: "cosine"
+  
+# Data Configuration
+data:
+  image_size: 128
+  train_split: 0.8
+  val_split: 0.15
+  test_split: 0.05
+  augmentation: true
+  
+# Active Learning Configuration
+active_learning:
+  initial_samples: 500
+  query_size: 100
+  max_iterations: 15
+  strategies: ["random", "uncertainty", "rl_policy"]
+  
+# RL Policy Configuration
+rl_policy:
+  hidden_dims: [256, 128, 64]
+  learning_rate: 0.001
+  episodes: 50
+  batch_size: 100
+  gamma: 0.99
+  exploration_rate: 0.1
+  
+# LLM Configuration
+llm:
+  provider: "openai"
+  model: "gpt-3.5-turbo"
+  max_tokens: 200
+  temperature: 0.7
+  
+# Logging Configuration
+logging:
+  level: "INFO"
+  save_logs: true
+  log_dir: "logs/"
+  
+# Output Configuration
+output:
+  save_models: true
+  save_figures: true
+  checkpoint_dir: "checkpoints/"
+  results_dir: "outputs/"

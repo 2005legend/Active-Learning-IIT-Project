@@ -1,0 +1,143 @@
+# ===================================
+# Policy Gradient Active Learning Project
+# ===================================
+
+# Large datasets and model files (too big for GitHub)
+data/raw/
+data/processed/
+data/cifar-100-python/
+data/dogs-vs-cats/
+*.tar.gz
+*.zip
+
+# Trained model checkpoints (large files)
+checkpoints/
+*.pth
+*.pkl
+*.h5
+*.ckpt
+*.pt
+
+# Training logs and outputs
+logs/
+outputs/
+*.log
+
+# Keep sample results but exclude large files
+!outputs/week2/metrics.json
+!outputs/week3/curves.json
+!outputs/week4/rl_curve.json
+!outputs/wildlife/*.json
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+conda-meta/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+config/secrets.yaml
+*.key
+api_keys.txt
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# PyTorch specific
+*.pth.tar
+
+# Matplotlib/Plotly cache
+.matplotlib/
+.plotly/
+
+# Pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Large image files (keep small test images)
+test_images/*.jpg
+test_images/*.jpeg
+test_images/*.bmp
+test_images/*.tiff
+!test_images/*.png
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Documentation build
+docs/_build/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Large output files
+*.png
+*.jpg
+*.jpeg
+!README_images/
+!docs/images/
+
+# Keep important visualization files
+!outputs/performance_comparison.png

@@ -1,0 +1,50 @@
+# LLM Service Configuration
+llm_service:
+  default_provider: "huggingface"
+  
+  # HuggingFace Configuration
+  huggingface:
+    base_url: "https://api-inference.huggingface.co/models"
+    default_model: "microsoft/DialoGPT-medium"
+    max_tokens: 200
+    temperature: 0.7
+    timeout: 30
+    
+  # Ollama Configuration (Local)
+  ollama:
+    base_url: "http://localhost:11434/api"
+    default_model: "llama2:7b"
+    max_tokens: 200
+    temperature: 0.7
+    timeout: 60
+    
+  # OpenAI Configuration
+  openai:
+    base_url: "https://api.openai.com/v1"
+    default_model: "gpt-3.5-turbo"
+    max_tokens: 200
+    temperature: 0.7
+    timeout: 30
+
+# UI Configuration
+ui:
+  page_title: "Animal Classification AI"
+  page_icon: "🐾"
+  layout: "wide"
+  theme:
+    primary_color: "#1f77b4"
+    background_color: "#ffffff"
+    text_color: "#262730"
+    
+# Model Configuration
+model:
+  image_size: 128
+  batch_size: 64
+  device: "auto"  # auto, cpu, cuda
+  
+# Active Learning Configuration
+active_learning:
+  initial_labeled: 1000
+  acquisition_size: 500
+  rounds: 8
+  epochs_per_round: 3 

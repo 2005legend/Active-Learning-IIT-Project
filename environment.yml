@@ -1,0 +1,26 @@
+name: policy-gradient-al
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python>=3.9
+  - pytorch>=2.1.0
+  - torchvision>=0.16.0
+  - numpy>=1.21.0
+  - scikit-learn>=1.0.0
+  - matplotlib>=3.5.0
+  - seaborn>=0.11.0
+  - pandas>=1.3.0
+  - pillow>=8.0.0
+  - jupyter>=1.0.0
+  - tqdm>=4.62.0
+  
+  # Additional dependencies via pip
+  - pip
+  - pip:
+    - plotly>=5.0.0
+    - streamlit>=1.28.0
+    - requests>=2.25.0
+    - pathlib2>=2.3.0
