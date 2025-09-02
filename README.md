@@ -274,7 +274,7 @@ animal_al_rl/
 - **Training Time**: 45 minutes (5 epochs)
 - **Convergence**: Stable after epoch 3
 
-![Training Curves](outputs/figures/baseline_training.png)
+![Training Curves](\outputs\week2\plots)
 
 #### Active Learning Comparison (Week 3)
 | Strategy | Samples Used | Final Accuracy | Efficiency Gain |
