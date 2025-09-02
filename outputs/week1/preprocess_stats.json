@@ -1,0 +1,6 @@
+{
+  "train_count": 20000,
+  "val_count": 5000,
+  "out_dir": "data\\processed\\catsdogs_128",
+  "img_size": 128
+}
