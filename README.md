@@ -585,9 +585,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Author**: [Your Name]
-- **Email**: [your.email@domain.com]
-- **GitHub**: [https://github.com/your-username](https://github.com/your-username)
+- **Author**: Sidaarth.K
+- **Email**: sidaarth005@gmail.com
+- **GitHub**: https://github.com/2005legend
 - **LinkedIn**: [https://linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
 
 ---
