@@ -321,15 +321,11 @@ Precision: Cat (93.6%), Dog (91.4%)
 
 ## 🖥️ UI Demo
 
-### Streamlit Application Screenshots
+### Streamlit Application Demo video
 
-#### Main Interface
-![Main Interface](outputs/figures/ui_main.png)
-*Interactive classification with real-time predictions*
 
-#### Performance Dashboard
-![Performance Dashboard](outputs/figures/ui_performance.png)
-*Comprehensive performance analysis and comparisons*
+#### video: https://youtu.be/_Qqjjs3Cvw0
+
 
 #### Example Workflow
 1. **Upload Image**: Drag and drop animal image
