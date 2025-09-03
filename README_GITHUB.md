@@ -245,10 +245,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Author**: Sidarth
+- **Author**: Sidaarth
 - **Email**: ksidaarth2005@gmail.com
-- **GitHub**: [@ksidaarth2005](https://github.com/ksidaarth2005)
-- **LinkedIn**: [Sidarth K](https://linkedin.com/in/sidarth-k)
+- **GitHub**: [@sidaarth2005](https://github.com/2005legend)
+- **LinkedIn**: [Sidarth K](https://www.linkedin.com/in/sidaarth-k-29064b204/)
 
 ---
 
