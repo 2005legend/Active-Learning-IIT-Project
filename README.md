@@ -9,7 +9,7 @@
 
 ## 📋 Overview
 
-This project addresses the critical challenge of **expensive data labeling** in computer vision by implementing a novel approach that combines **Active Learning** with **Reinforcement Learning** for intelligent sample selection. Traditional supervised learning requires massive labeled datasets, but our approach achieves comparable accuracy using only **7.5% of labeled data**.
+This project addresses the critical challenge of **expensive data labeling** in computer vision by implementing a novel approach that combines **Active Learning** with **Reinforcement Learning** for intelligent sample selection. Traditional supervised learning requires massive labeled datasets, but our approach achieves comparable accuracy using only **7.5% of labeled data,  For project demo refer the demo video given below in this same readme file*, The youtube link is created for the sole purpose of viewing the model demo**.
 
 ### Why This Matters
 - **Wildlife Research**: Reduce annotation costs for species classification
