@@ -238,7 +238,7 @@ animal_al_rl/
 │   ├── environment/       # RL environment
 │   │   └── al_env.py     # Custom Gymnasium environment
 │   ├── services/          # External services
-│   │   └── llm_service.py # OpenAI API integration
+│   │   └── llm_service.py # LLM API integration
 │   ├── utils/             # Utility functions
 │   │   ├── data_utils.py  # Data loading and preprocessing
 │   │   └── metrics.py     # Evaluation metrics
